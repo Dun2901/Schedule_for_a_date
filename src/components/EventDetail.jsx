@@ -89,7 +89,7 @@ function EventDetail() {
                 href={event.url}
                 className="inline-block px-8 py-3 text-lg text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105"
               >
-                Reserve your spot
+                Click here!!
               </a>
             </div>
           </div>
