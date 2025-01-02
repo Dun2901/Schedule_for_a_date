@@ -1,43 +1,43 @@
 import { useParams } from "react-router-dom";
 
 const eventDetails = {
-  "pick-up": {
-    title: "Qua đón bé Hăn nè",
+  "Pick-up": {
+    title: "Qua đón bé Nghi nè",
     description:
-      "Ig tui đã fl hong bit bé Hăn đã fl tui chưaaa, nếu chưa có thể ấn nút xanh bên dưới nhe hehe",
-    url: "https://www.instagram.com/_lmchidung_/",
-    location: "nhà bé Hăn",
-    time: "17:30 - 18:00",
+      "Lâu rồi tụi mình không đi date với nhau, lần này sẽ đi với nhau thật chỉnh chu ",
+    url: "https://misa2912.netlify.app/",
+    location: "nhà bé Nghi",
+    time: "18:00 - 18:30",
     imageUrl:
       "https://images.unsplash.com/photo-1643865744379-cae52845af3e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
-  "have-dinner": {
-    title: "Tokyo Soy Ramen",
-    description: "nếu bạn nhỏ muốn biết thêm thông tin có thể ấn vào nút xanh bên dưới nhe",
-    url: "https://www.facebook.com/tokyosoyramen/",
-    location: "418 Đ. Phan Văn Trị, Phường 5, Gò Vấp",
-    time: "18:30 - 19:30",
+  "Have-dinner": {
+    title: "Chamie Steak House",
+    description: "nếu Vợ muốn biết thêm thông tin có thể ấn vào nút xanh bên dưới nha",
+    url: "https://www.facebook.com/ChamieSteak/",
+    location: "23C Bắc Hải, Phường 15, Quận 10, Ho Chi Minh City, Vietnam",
+    time: "19:00 - 20h30",
     imageUrl:
-      "https://lh3.googleusercontent.com/p/AF1QipPiEdYgYc38aF-0npPRqWCq5Om5-9jPAjV51_ey=s1360-w1360-h1020",
+      "https://scontent-sin11-1.xx.fbcdn.net/v/t39.30808-6/294796499_541814544138353_1685175791220465704_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=JSY6kbr3OPQQ7kNvgGkHqbX&_nc_oc=AdhUQYEWc_wA8ChI2Drj_JY3DHx5mewDUPJJat_nDsOQXZMLXomvF_FieEGgAD6cbnwuVCV28VA29IsIsLoK4gbO&_nc_zt=23&_nc_ht=scontent-sin11-1.xx&_nc_gid=At-dLDBQavDZqY_7Sdk74oJ&oh=00_AYAWJkmu6H5DHSSUIQIUPP0uUiXh8MKcc7rrfhlqWffQMQ&oe=677C515A",
   },
-  "go-drink": {
-    title: "Ticos Coffee",
-    description: "nếu bạn nhỏ muốn biết thêm thông tin có thể ấn vào nút xanh bên dưới nhe",
-    url: "https://noithatkendesign.vn/review-ticos-coffee.html",
-    location: "527 Đ. Phan Văn Trị, Phường 5, Gò Vấp",
-    time: "20:00 - 21:00",
+  "Picture": {
+    title: "Photo By",
+    description: "nếu muốn cưới nhanh thì chỉ có cách này hehe",
+    url: "https://www.instagram.com/photoby_vietnam/?hl=en",
+    location: "113 Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, Ho Chi Minh City, Vietnam",
+    time: "20:45 - 21:30",
     imageUrl:
-      "https://scontent.fsgn7-1.fna.fbcdn.net/v/t1.6435-9/131072968_3543448312390417_6091593664508826249_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_ohc=yB77d3THHLsQ7kNvgE08vif&_nc_ht=scontent.fsgn7-1.fna&_nc_gid=AH39Kn4W_YHI2lsKtppzD1Z&oh=00_AYBsew3zIIpIvpsU5aYYmdByhW3i0OTHw_-sedUO11-PAw&oe=6727B491",
+      "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/306324529_110128811849363_2887529910499954834_n.png?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=h89u_uFrxUQQ7kNvgGM5CKt&_nc_oc=AdjWuaaDosE4WcvH7CvKq7lT6OacW4pSJ2X4tPebP3lYZtPwa_QXAqNSpvf0pmrcudrutB4NM19bJdpgqEL94jyD&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=AjJiF1AefURPaJHlKd4a2ry&oh=00_AYDGjpak4lsaEgF75Ia2kgoJWbUmjMw2dR4MuSLaOvh5CQ&oe=677C416E",
   },
-  "go-home": {
-    title: "Dìa nhà bé Hăn thoi",
+  "Movie": {
+    title: "Đi coi phim thoyyyy",
     description:
-      "Nếu bé cảm thấy hài lòng thì ấn vào nút xanh để gửi đánh giá 5 sao cho anh nhé :>",
-    url: "https://www.instagram.com/_lmchidung_/",
-    location: "Nhà bé Hăn",
-    time: "21:00 - 21:30",
+      "Nếu em cảm thấy buồn phiền thì đừng ngại call cho anh nhé :>",
+    url: "https://www.facebook.com/nguyen.xuan.huy.174364",
+    location: "Cinestar Hai Ba Trung",
+    time: "22:00 - Go home",
     imageUrl:
-      "https://images.unsplash.com/photo-1522444195799-478538b28823?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://cinestar.com.vn/_next/image/?url=https%3A%2F%2Fapi-website.cinestar.com.vn%2Fmedia%2Fwysiwyg%2FPosters%2F12-2024%2Fchi-dau.png&w=3840&q=75",
   },
   // Add more event details
 };

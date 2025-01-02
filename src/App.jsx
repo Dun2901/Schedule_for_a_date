@@ -6,27 +6,27 @@ import { PiBellRingingFill } from "react-icons/pi";
 
 const timeLine = [
   {
-    time: "17:30 - 18:00",
-    title: "Qua đón bé Hăn đi chơi nè",
-    path: "pick-up",
+    time: "18:00 - 18:30",
+    title: "Qua đón Misa đi chơi nè",
+    path: "Pick-up",
     icon: <RiEBike2Fill />,
   },
   {
-    time: "18:30 - 19:30",
-    title: "mốc thời gian này sẽ làm căng bụng nhe để có sức nói chuyện nà",
-    path: "have-dinner",
+    time: "19:00 - 20h30",
+    title: "Thời gian này sẽ làm căng bụng nhe để có sức để deeptalk healing",
+    path: "Have-dinner",
     icon: <FaCarrot />,
   },
   {
-    time: "20:00 - 21:00",
-    title: "Ăn xong thì mình sẽ đi uống nước nè",
-    path: "go-drink",
+    time: "20:45 - 21:30",
+    title: "Ăn xong thì mình sẽ đi chụp hình photo by nhe bbi ",
+    path: "Picture",
     icon: <RiDrinks2Fill />,
   },
   {
-    time: "21:00 - 21:30",
-    title: "Ở thời gian nì sẽ là đưa bé Hăn về nghỉ ngơi nà",
-    path: "go-home",
+    time: "22:00 - Go home",
+    title: "Tụi mình sẽ cùng đi coi phim Chị Dâu bộ phim em thích nhaaa",
+    path: "Movie",
     icon: <FaHome />,
   },
 ];
@@ -38,17 +38,17 @@ function App() {
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
-              chedule for a date
+              Chedule for a date
             </h2>
             <p className="mt-4 text-lg text-gray-500 dark:text-gray-400 leading-relaxed">
-              Bạn nhỏ của tui nhớ giữ lịch này nhe để tiện theo dõi nè, hẹn bạn nhỏ
+              Vợ iu của tui nhớ giữ lịch này nhe để tiện theo dõi nè, hẹn Vợ iu&nbsp;
               <span className="font-semibold text-gray-700 dark:text-gray-200">
-                17:30 Wednesday, 9 October, 2024
+                18:30 Thursday, 2 January, 2025
               </span>
               <span className="text-xl text-blue-600 dark:text-blue-500 inline-flex align-middle ml-1">
                 <PiBellRingingFill />
               </span>
-              nheeee!
+              nhé!
             </p>
 
             <div className="mt-4">
